@@ -3,7 +3,7 @@ import './Css/style.css';
 import Home from "./Home";
 import Spon from "./Spon";
 import Browse from "./Browse";
-import {BrowserRouter as Router, Route , Routes} from 'react-router-dom';
+import {BrowserRouter as Router, HashRouter, Route , Routes} from 'react-router-dom';
 import Browse2 from "./Browse2";
 import Library from "./Library";
 import Settings from "./Settings";
@@ -184,7 +184,7 @@ useEffect(() => {
 })
 
     return(
-        <Router>
+        <HashRouter>
             <BrowseContext.Provider value={{navB,data,play,audio,Taudio,audios,makeRandom,random,playPreNext,isplayed,changeRepeat,repeat,convertSeconds,time,changeTime,cmp,changeVolume,volume}}>
             <Routes>
                 <Route path="/" element={
@@ -200,6 +200,6 @@ useEffect(() => {
                 </Route>
             </Routes>
             </BrowseContext.Provider>
-        </Router>
+        </HashRouter>
     )
 }
