@@ -3,7 +3,7 @@ import './Css/style.css';
 import Home from "./Home";
 import Spon from "./Spon";
 import Browse from "./Browse";
-import {BrowserRouter as Router, HashRouter, Route , Routes} from 'react-router-dom';
+import {BrowserRouter as Router, Route , Routes} from 'react-router-dom';
 import Browse2 from "./Browse2";
 import Library from "./Library";
 import Settings from "./Settings";
@@ -184,22 +184,22 @@ useEffect(() => {
 })
 
     return(
-        <HashRouter>
+        <Router>
             <BrowseContext.Provider value={{navB,data,play,audio,Taudio,audios,makeRandom,random,playPreNext,isplayed,changeRepeat,repeat,convertSeconds,time,changeTime,cmp,changeVolume,volume}}>
             <Routes>
-                <Route path="/" element={
+                <Route path="/HeartSky" element={
                     <>
                         <Home nav={navH}/>
                         <Spon imgs={imgs}/>
                     </>
                 }/>
-                <Route path="Browse" element={<Browse/>}>
-                    <Route path='/Browse' element={<Browse2/>}/>
+                <Route path="/HeartSky" element={<Browse/>}>
+                    <Route path='/HeartSky/Browse' element={<Browse2/>}/>
                     <Route path='Library' element={<Library/>}/>
                     <Route path='Settings' element={<Settings/>}/>
                 </Route>
             </Routes>
             </BrowseContext.Provider>
-        </HashRouter>
+        </Router>
     )
 }

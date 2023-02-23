@@ -12,7 +12,7 @@ export default function LeftSide(){
                         {e.name==='Settings'?<hr />:''}
                         <div>
                             <i className={e.cls}></i>
-                            {e.name==='Home'?<a href='/'>{e.name}</a>:<Link to={e.name!=='Browse'?e.name:'/Browse'}>{e.name}</Link>}
+                            {e.name==='Home'?<a href='/HeartSky'>{e.name}</a>:<Link to={e.name!=='Browse'?e.name:'/HeartSky/Browse'}>{e.name}</Link>}
                         </div>
                     </Fragment>
                 )}
