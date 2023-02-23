@@ -20,10 +20,10 @@ const data = [
     {ref:19,src:"MusicData/19/src/Avril Lavigne - Let Me Go ft. Chad Kroeger.mp3",img:"MusicData/19/img/Avril Lavigne - Let Me Go ft. Chad Kroeger.png",title:"Let Me Go ft. Chad Kroeger",art:"Avril Lavigne",time:268,playing:"97.10M"},
     {ref:20,src:"MusicData/20/src/Avril Lavigne - Bois Lie ft. Machine Gun Kelly.mp3",img:"MusicData/20/img/Avril Lavigne - Bois Lie ft. Machine Gun Kelly.png",title:"Bois Lie ft. Machine Gun Kelly",art:"Avril Lavigne",time:163,playing:"35.09M"},
     {ref:21,src:"MusicData/21/src/Avril Lavigne - When You_re Gone.mp3",img:"MusicData/21/img/Avril Lavigne - When You_re Gone.jpg",title:"When You're Gone",art:"Avril Lavigne",time:239,playing:"124.02M"},
-    {ref:22,src:"MusicData/22/src/Seether - Broken ft. Amy Lee.mp3",img:"MusicData/22/img/Seether - Broken ft. Amy Lee.png",title:"Broken ft. Amy Lee",art:"Seether",time:265,playing:"71.39M"},
-    {ref:23,src:"MusicData/23/src/Evanescence - Everybody's Fool.mp3",img:"MusicData/23/img/Evanescence - Everybody's Fool.png",title:"Everybody's Fool",art:"Evanescence",time:203,playing:"136.64M"},
-    {ref:24,src:"MusicData/24/src/Evanescence - What You Want.mp3",img:"MusicData/24/img/Evanescence -  What You Want.png",title:"What You Want",art:"Evanescence",time:226,playing:"68.55M"},
-    {ref:25,src:"MusicData/25/src/Evanescence - My Immortal.mp3",img:"MusicData/25/img/Evanescence - My Immortal.png",title:"My Immortal",art:"Evanescence",time:279,playing:"167.39M"},
-    {ref:26,src:"MusicData/26/src/Evanescence - My Heart Is Broken.mp3",img:"MusicData/26/img/Evanescence - My Heart Is Broken.png",title:"My Heart Is Broken",art:"Evanescence",time:278,playing:"63.19M"}
+    {ref:22,src:"MusicData/22/src/Seether - Broken ft. Amy Lee.mp3",img:"MusicData/22/img/Seether - Broken ft. Amy Lee.png",title:"Broken ft. Amy Lee",art:"Seether",time:258,playing:"71.39M"},
+    {ref:23,src:"MusicData/23/src/Evanescence - Everybody's Fool.mp3",img:"MusicData/23/img/Evanescence - Everybody's Fool.png",title:"Everybody's Fool",art:"Evanescence",time:198,playing:"136.64M"},
+    {ref:24,src:"MusicData/24/src/Evanescence - What You Want.mp3",img:"MusicData/24/img/Evanescence -  What You Want.png",title:"What You Want",art:"Evanescence",time:220,playing:"68.55M"},
+    {ref:25,src:"MusicData/25/src/Evanescence - My Immortal.mp3",img:"MusicData/25/img/Evanescence - My Immortal.png",title:"My Immortal",art:"Evanescence",time:272,playing:"167.39M"},
+    {ref:26,src:"MusicData/26/src/Evanescence - My Heart Is Broken.mp3",img:"MusicData/26/img/Evanescence - My Heart Is Broken.png",title:"My Heart Is Broken",art:"Evanescence",time:271,playing:"63.19M"}
 ]
 export default data;
